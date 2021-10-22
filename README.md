@@ -25,7 +25,8 @@ After HTML flow you might be searching for something that makes things not bette
 -  Codepen (It's an online editor that I use)
 ## Basic Structure:
 <p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138478986-7941e96f-3013-43bb-b9e3-5849e20dccef.png" align="center" height="250" width="500" >  </p>
--   Selector: selects the element you want to target
+
+-  Selector: selects the element you want to target
 -  There are few basic selectors like tags, id’s, and classes
 -  All forms this key - value pair
 -  Keys : properties(attributes) like color, font-size, background, width, height,etc
@@ -41,20 +42,23 @@ After HTML flow you might be searching for something that makes things not bette
 -  Inline > Internal > External - (Priority order)
 
 ### Inline CSS
--   Before Css this was the only way to apply styles
+-   Before CSS this was the only way to apply styles
 -   Not an efficient way to write as it has lot a redundancy
 -   Self contained 
 -   Uniquely applied on each element
 -   Idea of separation of concerns was lost
 -   Example: 
 <p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138479475-57f624ad-d5a5-4f36-b93e-030b90364cc4.png" align="center" height="250" width="500" >  </p>
-###  Internal CSS
--  With the help of style tag we can apply styles within the HTML file
--  Redundancy is removed
--  But idea of separation of concerns still lost
--  Uniquely applied on single document
--  Example:
+
+### Internal CSS
+
+-   With the help of style tag we can apply styles within the HTML file
+-   Redundancy is removed
+-   But idea of separation of concerns still lost
+-   Uniquely applied on single document
+-   Example:
 <p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138479737-9850749c-c50e-4dc2-a569-e9422c0ac8fe.png" align="center" height="250" width="500" >  </p>
+
 ###  External CSS 
 -   With the help of <link> tag in head tag we can apply styles
 -   Reference is added 
@@ -64,6 +68,7 @@ After HTML flow you might be searching for something that makes things not bette
 -   Uniquely applied on each document
 -   Example:
 <p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138480109-5d278234-f570-43ea-ad77-b9d2e133912f.png" align="center" height="250" width="500" >  </p>
+
 ## CSS Selectors
 -  Selector are used target elements and apply Css 
 -  Three simple selectors
@@ -86,6 +91,7 @@ have the text color as red.
 -  Used to target specific or unique element 
 -  How we do it
 <p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138480427-0f4963d8-c653-4a7c-bfa8-0063efa824a5.png" align="center" height="250" width="500" >  </p>
+
 We selected id and then changed the color property i.e text color to 
 red. Now whatever is written in this tag (content) will have the text color 
 as red 
@@ -104,7 +110,8 @@ color as red
 -  Wild card character
 -  Used to target specific all the elements
 -  How we do it
-<p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138480826-68cd8f80-1218-441e-93cf-d0abbb007705.png" align="center" height="250" width="500" >  </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138480826-68cd8f80-1218-441e-93cf-d0abbb007705.png" align="center" height="250" width="300" >  </p>
+
 We selected all the elements then change the color property i.e text 
 color to red. Now whatever is written in all the tags (content) will have 
 the text color as red
@@ -112,7 +119,8 @@ the text color as red
 -  Group selector minimizes code
 -  Used to target specific group of elements 
 -  How we do it
-<p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138480913-1b0c6c5c-8771-4baf-b89a-19012382bfee.png" align="center" height="250" width="500" >  </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138480913-1b0c6c5c-8771-4baf-b89a-19012382bfee.png" align="center" height="250" width="300" >  </p>
+
 We selected these elements and then changed the color property i.e 
 text color to red. Now whatever is written in these tags (content) will 
 have the text color as red
@@ -138,6 +146,7 @@ as red
 -  Used to target state of element
 -  How we do it
 <p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138482059-9256e415-ed13-4dc6-b5f1-b444f8f20da2.png" align="center" height="250" width="500" >  </p>
+
 We selected element and then changed the color property i.e text 
 color to red. Now whatever is written in this tag (content) will have the 
 text color as red 
@@ -165,7 +174,7 @@ text color as red
    -  Attachment - It basically helps in controlling the mechanism of scrolling
 ### CSS Background Demo
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138482769-6b09a3f3-28c4-4fb4-a4d3-79b25f19b762.png" align="center" height="250" width="500" >  </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138482769-6b09a3f3-28c4-4fb4-a4d3-79b25f19b762.png" align="center" height="350" width="500" >  </p>
 
 ## CSS Border
 -  Helps in setting up the border for HTML elements
@@ -182,6 +191,7 @@ text color as red
 
 ### CSS Border Example 
 <p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138482428-f3c6b847-e22b-423d-a91d-38243a004172.png" align="center" height="250" width="500" >  </p>
+
 ## Box Model
 -  Every element in CSS can be represented using BOX model
 - It helps developer to develop and manipulate the elements
@@ -197,11 +207,3 @@ margin: 5px;
 padding: 20px;
 width:20px;
 height:20px;
-
-
-
-
-
-
-
-
