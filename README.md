@@ -24,9 +24,7 @@ After HTML flow you might be searching for something that makes things not bette
 -  Sublime Text
 -  Codepen (It's an online editor that I use)
 ## Basic Structure:
-   
- ![image](https://user-images.githubusercontent.com/81810889/138478986-7941e96f-3013-43bb-b9e3-5849e20dccef.png)
-
+<p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138478986-7941e96f-3013-43bb-b9e3-5849e20dccef.png" align="center" height="250" width="500" >  </p>
 -   Selector: selects the element you want to target
 -  There are few basic selectors like tags, id’s, and classes
 -  All forms this key - value pair
@@ -49,17 +47,15 @@ After HTML flow you might be searching for something that makes things not bette
 -   Uniquely applied on each element
 -   Idea of separation of concerns was lost
 -   Example: 
-![image](https://user-images.githubusercontent.com/81810889/138479475-57f624ad-d5a5-4f36-b93e-030b90364cc4.png)
-
-### Internal CSS
+<p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138479475-57f624ad-d5a5-4f36-b93e-030b90364cc4.png" align="center" height="250" width="500" >  </p>
+###  Internal CSS
 -  With the help of style tag we can apply styles within the HTML file
 -  Redundancy is removed
 -  But idea of separation of concerns still lost
 -  Uniquely applied on single document
 -  Example:
-![image](https://user-images.githubusercontent.com/81810889/138479737-9850749c-c50e-4dc2-a569-e9422c0ac8fe.png)
-
-### External CSS 
+<p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138479737-9850749c-c50e-4dc2-a569-e9422c0ac8fe.png" align="center" height="250" width="500" >  </p>
+###  External CSS 
 -   With the help of <link> tag in head tag we can apply styles
 -   Reference is added 
 -   File saved with .css extension
@@ -67,8 +63,7 @@ After HTML flow you might be searching for something that makes things not bette
 -   Idea of separation of concerns is maintained
 -   Uniquely applied on each document
 -   Example:
-![image](https://user-images.githubusercontent.com/81810889/138480109-5d278234-f570-43ea-ad77-b9d2e133912f.png)
-
+<p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138480109-5d278234-f570-43ea-ad77-b9d2e133912f.png" align="center" height="250" width="500" >  </p>
 ## CSS Selectors
 -  Selector are used target elements and apply Css 
 -  Three simple selectors
@@ -90,7 +85,7 @@ have the text color as red.
 -  ID attribute is used to select HTML element.
 -  Used to target specific or unique element 
 -  How we do it
-![image](https://user-images.githubusercontent.com/81810889/138480427-0f4963d8-c653-4a7c-bfa8-0063efa824a5.png)
+<p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138480427-0f4963d8-c653-4a7c-bfa8-0063efa824a5.png" align="center" height="250" width="500" >  </p>
 We selected id and then changed the color property i.e text color to 
 red. Now whatever is written in this tag (content) will have the text color 
 as red 
@@ -98,8 +93,8 @@ as red
 -  Class attribute is used to select HTML element
 -  Used to target specific class of element 
 -  How we do it
-![image](https://user-images.githubusercontent.com/81810889/138480642-d7b7884e-c7d3-4244-b8d1-0a2bd85b6551.png)
 
+<p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138480642-d7b7884e-c7d3-4244-b8d1-0a2bd85b6551.png" align="center" height="250" width="500" >  </p>
 
 We selected class and then changed the color property i.e text color 
 to red. Now whatever is written in this tag (content) will have the text 
@@ -109,8 +104,7 @@ color as red
 -  Wild card character
 -  Used to target specific all the elements
 -  How we do it
-![image](https://user-images.githubusercontent.com/81810889/138480826-68cd8f80-1218-441e-93cf-d0abbb007705.png)
-
+<p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138480826-68cd8f80-1218-441e-93cf-d0abbb007705.png" align="center" height="250" width="500" >  </p>
 We selected all the elements then change the color property i.e text 
 color to red. Now whatever is written in all the tags (content) will have 
 the text color as red
@@ -118,15 +112,16 @@ the text color as red
 -  Group selector minimizes code
 -  Used to target specific group of elements 
 -  How we do it
-![image](https://user-images.githubusercontent.com/81810889/138480913-1b0c6c5c-8771-4baf-b89a-19012382bfee.png)
-
+<p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138480913-1b0c6c5c-8771-4baf-b89a-19012382bfee.png" align="center" height="250" width="500" >  </p>
 We selected these elements and then changed the color property i.e 
 text color to red. Now whatever is written in these tags (content) will 
 have the text color as red
 ### Descendant Combinator Selector
 Combine two or more selectors
 ● How we do it
-![image](https://user-images.githubusercontent.com/81810889/138481646-6ca50f30-3fd7-41ea-8745-2b367eb308cd.png)
+
+<p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138481646-6ca50f30-3fd7-41ea-8745-2b367eb308cd.png" align="center" height="250" width="500" >  </p>
+
 We selected class inside id then changed the color property i.e text 
 color to red. Now whatever is written (content) will have the text color 
 as red 
@@ -142,8 +137,7 @@ as red
 ### Pseudo-class Selector
 -  Used to target state of element
 -  How we do it
-![image](https://user-images.githubusercontent.com/81810889/138482059-9256e415-ed13-4dc6-b5f1-b444f8f20da2.png)
-
+<p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138482059-9256e415-ed13-4dc6-b5f1-b444f8f20da2.png" align="center" height="250" width="500" >  </p>
 We selected element and then changed the color property i.e text 
 color to red. Now whatever is written in this tag (content) will have the 
 text color as red 
@@ -170,7 +164,8 @@ text color as red
    -  Position - used to determine the position of the image
    -  Attachment - It basically helps in controlling the mechanism of scrolling
 ### CSS Background Demo
-![image](https://user-images.githubusercontent.com/81810889/138482769-6b09a3f3-28c4-4fb4-a4d3-79b25f19b762.png)
+
+<p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138482769-6b09a3f3-28c4-4fb4-a4d3-79b25f19b762.png" align="center" height="250" width="500" >  </p>
 
 ## CSS Border
 -  Helps in setting up the border for HTML elements
@@ -186,7 +181,7 @@ text color as red
    -  Eg: border : 2px solid blue; 
 
 ### CSS Border Example 
-![image](https://user-images.githubusercontent.com/81810889/138482428-f3c6b847-e22b-423d-a91d-38243a004172.png)
+<p align="center"> <img src="https://user-images.githubusercontent.com/81810889/138482428-f3c6b847-e22b-423d-a91d-38243a004172.png" align="center" height="250" width="500" >  </p>
 ## Box Model
 -  Every element in CSS can be represented using BOX model
 - It helps developer to develop and manipulate the elements
