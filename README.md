@@ -1,5 +1,7 @@
 # Hands-on-CSS
-Cascading Style Sheets
+CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.
+
+Now that you've described the structure of your cat photo app, give it some style with CSS.
 ## What's CSS? 
 After HTML flow you might be searching for something that makes things not better but hte best! And if you choose CSS, you are on the right designation. If HTML is the structure of the house then CSS is the look and feel of the house.
 -  It's the language to make our web pages presentable in a effective way.
